@@ -1,0 +1,74 @@
+@import 'colors';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+.navbar {
+
+    .navbar-brand {
+        font-size: 2.4rem;
+        font-weight: bold;
+    }
+
+    .nav-link {
+        font-size: 1.8rem;
+    }
+
+    .navbar-toggler {
+        font-size: 2rem;
+        padding: 1rem;
+    }
+}
+
+.header {
+	font-size: 2rem;
+
+    .carousel-item {
+        position: relative;
+        height: 400px;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .carousel-img-one {
+        background-image: url('../img/main-carousel-1.jpg');
+    }
+    .carousel-img-two {
+        background-image: url('../img/main-carousel-2.jpg');
+    }
+    .carousel-img-three {
+        background-image: url('../img/main-carousel-3.jpg');
+    }
+    
+}
+
+
+
+@media (min-width: 1200px) {
+    .header {
+        .carousel_img_one {
+            background-image: url('/img/main-carousel-1-hq.jpg');
+        }
+    
+        .carousel_img_two {
+            background-image: url('/img/main-carousel-2-hq.jpg');
+        }
+    
+        .carousel_img_three {
+            background-image: url('/img/main-carousel-3-hq.jpg');
+        }
+    }
+}

@@ -169,6 +169,44 @@ footer {
     }
 }
 
+.services {
+    .services-hero {
+        background-image: url('/dist/img/services/services-hero.jpg');
+        background-position: 0% 75% ;
+    }
+
+    .service-hero-box {
+        position: relative;
+        height: 300px;
+        background-size: cover;
+        z-index: 0;
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+            text-transform: uppercase;
+            color: $color-light;
+        }
+    }
+    
+    .box-one {
+        background-image: url('/dist/img/services/engine.jpg');
+    }
+    .box-two {
+        background-image: url('/dist/img/services/visual.jpg');
+    }
+    .box-three {
+        background-image: url('/dist/img/services/car-audio.jpg');
+    }
+    .box-four {
+        background-image: url('/dist/img/services/allinone.jpg');
+    }
+
+    
+}
+
 
 @media (min-width: 1400px) {
     .header {

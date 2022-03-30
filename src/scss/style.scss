@@ -207,6 +207,43 @@ footer {
     
 }
 
+.projects {
+    .projects-hero {
+        background-image: url('/dist/img/projects/project-hero.jpg');
+        background-position: center ;
+    }
+
+    img {
+        height: 240px;
+        object-fit: cover;
+    }
+
+    .btn {
+        font-size: 1.4rem;
+        text-transform: uppercase;
+    }
+}
+
+.contact {
+    .contact-hero {
+        background-image: url('/dist/img/contact/contact-hero.jpg');
+        background-position: center;
+    }
+
+    .btn {
+        padding: 0.3em 0.8em;
+        font-size: 2rem;
+    }
+
+    input, select, textarea {
+        font-size: 1.6rem;    
+    }
+
+    .contact-map iframe {
+        width: 100%;
+        min-height: 400px;
+    }
+}
 
 @media (min-width: 1400px) {
     .header {
